@@ -1,0 +1,15 @@
+.project
+.settings
+.classpath
+*.log
+target
+revolsys-core/target
+revolsys-fgdb/target
+revolsys-gdal/target
+revolsys-geopackage/target
+revolsys-maki/target
+revolsys-oracle/target
+revolsys-postgresql/target
+revolsys-swing/target
+revolsys-testapi/target
+revolsys-web/target
