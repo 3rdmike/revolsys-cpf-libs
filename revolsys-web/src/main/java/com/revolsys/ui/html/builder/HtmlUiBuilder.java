@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
 
 import javax.annotation.PreDestroy;
 import jakarta.servlet.ServletContext;
-import javax.servlet.ServletException;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
