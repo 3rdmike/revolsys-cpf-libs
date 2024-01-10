@@ -4,6 +4,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import org.jeometry.common.logging.Logs;
+
 import org.springframework.beans.BeansException;
 import org.springframework.beans.MutablePropertyValues;
 import org.springframework.beans.PropertyValue;
@@ -80,6 +82,12 @@ public class AttributesBeanConfigurer extends BeanConfigurrer {
 
     final String configBeanName = getBeanName();
     for (final String beanName : beanFactory.getBeanDefinitionNames()) {
+      // print all bean names:
+      Logs.debug(this, "##### BEAN NAME '" + beanName + "'");
+
+
+
+
       // Check that we're not parsing our own bean definition,
       // to avoid failing on non-resolvable place-holders in properties file
       // locations.

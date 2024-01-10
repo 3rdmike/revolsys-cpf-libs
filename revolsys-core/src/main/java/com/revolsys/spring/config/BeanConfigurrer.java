@@ -205,7 +205,7 @@ public class BeanConfigurrer
         }
       }
     } catch (final BeansException ex) {
-      final String msg = "Could not process key '" + key + "' in PropertyOverrideConfigurer";
+      final String msg = "Could not process key '" + key + "' value '" + value.toString() +"' in PropertyOverrideConfigurer";
       if (!this.ignoreInvalidKeys) {
         throw new BeanInitializationException(msg, ex);
       }
