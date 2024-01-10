@@ -154,8 +154,11 @@ public class BeanConfigurrer
         final String mapKey = matcher.group(2);
         final String propertyName = matcher.group(3);
 
+        Logs.debug(this, "***** READ '" + key + "' beanName '"+beanName+"', mapKey '"+mapKey+"', propertyName '"+propertyName+"'");
+
+
         if (mapKey == null) {
-          if (propertyName == null) {
+          if (propertyName == null || !factory.containsBean(beanName)) {
             if (factory.containsBean(beanName)) {
               BeanDefinition beanDefinition = factory.getBeanDefinition(beanName);
               try {
