@@ -24,7 +24,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 import jakarta.servlet.ServletException;
-import javax.servlet.jsp.PageContext;
+import jakarta.servlet.jsp.PageContext;
 
 import org.apache.commons.jexl3.JexlExpression;
 import org.slf4j.Logger;
