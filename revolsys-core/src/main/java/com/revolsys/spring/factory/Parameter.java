@@ -76,12 +76,40 @@ public class Parameter implements FactoryBean<Object> {
     this.value = value;
   }
 
+
+  // new patching codes
+  
+  // webServiceUrl
+  private String webServiceUrl;
+
   public String getWebServiceUrl() {
-    return this.value.toString();
+    return this.webServiceUrl;
   }
 
   public void setWebServiceUrl(String webServiceUrl) {
-    this.value = webServiceUrl;
+    this.webServiceUrl = webServiceUrl;
+  }
+
+  // maximumPoolSize
+  private int maximumPoolSize;
+
+  public int getMaximumPoolSize() {
+    return this.maximumPoolSize;
+  }
+
+  public void setMaximumPoolSize(int maximumPoolSize) {
+    this.maximumPoolSize = maximumPoolSize;
+  }
+
+  // appLogDirectory
+  private String appLogDirectory;
+
+  public String getAppLogDirectory() {
+    return this.appLogDirectory;
+  }
+
+  public void setAppLogDirectory(String appLogDirectory) {
+    this.appLogDirectory = appLogDirectory;
   }
 
 }
