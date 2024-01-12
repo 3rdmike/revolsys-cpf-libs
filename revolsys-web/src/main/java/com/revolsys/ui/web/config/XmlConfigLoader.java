@@ -40,7 +40,7 @@ public class XmlConfigLoader {
       throw new IllegalArgumentException("A config file must be specified");
     }
     this.configFileUrl = configFileUrl;
-    this.context.setAttribute("javax.servlet.ServletContext", servletContext);
+    this.context.setAttribute("jakarta.servlet.ServletContext", servletContext);
   }
 
   public synchronized Config loadConfig() throws InvalidConfigException {

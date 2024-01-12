@@ -17,8 +17,8 @@ package com.revolsys.ui.web.servlet;
 
 import java.beans.Introspector;
 
-import javax.servlet.ServletContextEvent;
-import javax.servlet.ServletContextListener;
+import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
 
 import org.apache.commons.logging.LogFactory;
 
@@ -30,7 +30,7 @@ public class WebUIServletContextListener implements ServletContextListener {
 
   /*
    * (non-Javadoc)
-   * @see javax.servlet.ServletContextListener#contextDestroyed(jakarta.servlet.
+   * @see jakarta.servlet.ServletContextListener#contextDestroyed(jakarta.servlet.
    * ServletContextEvent)
    */
   @Override
@@ -42,7 +42,7 @@ public class WebUIServletContextListener implements ServletContextListener {
 
   /*
    * (non-Javadoc)
-   * @see javax.servlet.ServletContextListener#contextInitialized(jakarta.servlet.
+   * @see jakarta.servlet.ServletContextListener#contextInitialized(jakarta.servlet.
    * ServletContextEvent)
    */
   @Override

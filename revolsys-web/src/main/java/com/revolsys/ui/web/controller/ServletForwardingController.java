@@ -19,7 +19,7 @@ package com.revolsys.ui.web.controller;
 import javax.annotation.PreDestroy;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletContext;
-import javax.servlet.ServletException;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletRequestWrapper;
 import jakarta.servlet.http.HttpServletResponse;
@@ -105,7 +105,7 @@ public class ServletForwardingController extends AbstractController implements B
    * @return <code>true</code> for include, <code>false</code> for forward
    * @see jakarta.servlet.RequestDispatcher#forward
    * @see jakarta.servlet.RequestDispatcher#include
-   * @see javax.servlet.ServletResponse#isCommitted
+   * @see jakarta.servlet.ServletResponse#isCommitted
    * @see org.springframework.web.util.WebUtils#isIncludeRequest
    */
   protected boolean useInclude(final HttpServletRequest request,

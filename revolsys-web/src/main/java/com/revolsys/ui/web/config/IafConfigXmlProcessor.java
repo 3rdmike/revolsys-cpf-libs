@@ -71,7 +71,7 @@ public class IafConfigXmlProcessor extends XmlProcessor {
     super("urn:x-revolsys-com:iaf:core:config");
     setContext(processorContext);
     this.servletContext = (ServletContext)processorContext
-      .getAttribute("javax.servlet.ServletContext");
+      .getAttribute("jakarta.servlet.ServletContext");
   }
 
   private boolean getBooleanAttribute(final StaxReader parser, final String name) {
