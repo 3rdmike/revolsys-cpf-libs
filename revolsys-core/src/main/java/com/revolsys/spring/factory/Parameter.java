@@ -112,4 +112,14 @@ public class Parameter implements FactoryBean<Object> {
     this.appLogDirectory = appLogDirectory;
   }
 
+  // maxWorkerWaitTime
+  private String maxWorkerWaitTime;
+
+  public String getMaxWorkerWaitTime() {
+    return this.maxWorkerWaitTime;
+  }
+
+  public void setMaxWorkerWaitTime(String maxWorkerWaitTime) {
+    this.maxWorkerWaitTime = maxWorkerWaitTime;
+  }
 }
