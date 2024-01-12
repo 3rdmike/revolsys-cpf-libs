@@ -76,4 +76,12 @@ public class Parameter implements FactoryBean<Object> {
     this.value = value;
   }
 
+  public String getWebServiceUrl() {
+    return this.value.toString();
+  }
+
+  public void setWebServiceUrl(String webServiceUrl) {
+    this.value = webServiceUrl;
+  }
+
 }
