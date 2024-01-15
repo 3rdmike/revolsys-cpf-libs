@@ -3,8 +3,8 @@ package com.revolsys.websocket;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import javax.websocket.server.ServerEndpoint;
-import javax.websocket.server.ServerEndpointConfig.Configurator;
+import jakarta.websocket.server.ServerEndpoint;
+import jakarta.websocket.server.ServerEndpointConfig.Configurator;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
