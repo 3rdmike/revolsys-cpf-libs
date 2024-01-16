@@ -14,7 +14,7 @@
     p:servletName="default"
   />
 
-  <alias 
+  <!-- <alias 
     name="com.revolsys.web.spring.mvc.defaultServletController" 
     alias="/*.swf"
   />  
@@ -52,5 +52,5 @@
   <alias 
     name="com.revolsys.web.spring.mvc.defaultServletController" 
     alias="/js/**"
-  />  
+  />   -->
 </beans>

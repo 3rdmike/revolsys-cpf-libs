@@ -14,7 +14,7 @@
     p:servletName="jsp"
   />
 
-  <alias 
+  <!-- <alias 
     name="com.revolsys.web.spring.mvc.jspServletController" 
     alias="/**/jsp/**" 
   />
@@ -27,5 +27,5 @@
   <alias 
     name="com.revolsys.web.spring.mvc.jspServletController" 
     alias="/*.jsp" 
-  />
+  /> -->
 </beans>
